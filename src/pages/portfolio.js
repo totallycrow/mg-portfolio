@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <div>
       <Navbar></Navbar>
-      {/* <div className="w-screen h-screen flex justify-center items-center max-w-screen-2xl mx-auto py-8">
-        <div className="grid grid-cols-3 gap-8">
+      <div className="bg-teal-100 h-screen flex justify-center items-center max-w-screen-2xl mx-auto py-8">
+        <div className="bg-blue-100 grid grid-cols-3 gap-8">
           <Link to="/portfolio/crosley">
             {" "}
             <StaticImage
@@ -61,7 +61,7 @@ export default function Home() {
             ></StaticImage>
           </Link>
         </div>
-      </div> */}
+      </div>
       <Footer></Footer>
     </div>
   )
