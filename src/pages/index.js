@@ -7,7 +7,7 @@ import { StaticImage } from "gatsby-plugin-image"
 export default function Home() {
   return (
     <div className="bg-white px-14">
-      <div className="text-center">
+      <div className="text-center mt-8">
         <StaticImage
           src="../images/logo.webp"
           alt="Marisa Goncalves London Graphic Designer Logo"
