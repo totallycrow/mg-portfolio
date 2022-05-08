@@ -6,16 +6,28 @@ import { StaticImage } from "gatsby-plugin-image"
 
 export default function Home() {
   return (
-    <div className="bg-white w-screen h-screen flex justify-center items-center">
+    <div className="bg-white px-14">
       <div className="">
         <StaticImage
           src="../images/logo.webp"
           alt="Marisa Goncalves London Graphic Designer Logo"
         ></StaticImage>
-        <div className="px-4 flex justify-between items-center">
-          <Link to="/about-me">About</Link>
-          <Link to="/portfolio">Portoflio</Link>
-          <Link to="/contact">Contact Me</Link>
+        <div className="flex-col text-center text-white">
+          <div className="bg-stone-900 p-2 mx-auto flex items-center justify-center my-3">
+            <Link to="/about-me" className="w-full">
+              About
+            </Link>
+          </div>
+          <div className="bg-stone-900 p-2 mx-auto flex items-center justify-center my-3">
+            <Link to="/portfolio" className="w-full">
+              Portoflio
+            </Link>
+          </div>
+          <div className="bg-stone-900 p-2 mx-auto flex items-center justify-center my-3">
+            <Link to="/contact" className="w-full">
+              Contact Me
+            </Link>
+          </div>
         </div>
       </div>
     </div>
