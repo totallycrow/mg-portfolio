@@ -23,7 +23,7 @@ export default function Navbar() {
           <Link to="/portfolio" className="px-4">
             Portoflio
           </Link>
-          <Link to="/about-me" className="px-4">
+          <Link to="/contact" className="px-4">
             Contact Me
           </Link>
         </div>
