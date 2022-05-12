@@ -130,6 +130,21 @@ export default function Home() {
           </ul>
         </div>
       </div>
+
+      <div className="div-ending bg-white px-6 my-8">
+        <h3 className="text-2xl pb-2">Language</h3>
+        <ul>
+          <li>PORTUGUESE</li>
+          <li>ENGLISH</li>
+          <li>FRENCH</li>
+          <li>FRENCH</li>
+        </ul>
+
+        <div>
+          <h3 className="text-2xl py-2">Interests</h3>
+          <div>INTERESTS ICONS HERE</div>
+        </div>
+      </div>
     </Layout>
   )
 }
