@@ -96,7 +96,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="alternative-container bg-stone-900 text-slate-100 ">
+      <div className="alternative-container bg-stone-900 text-slate-100 pb-8 pt-4">
         <div className="alternative-container px-6 ">
           <p className="text-center p-4">LATEST WORK | ACHIEVEMENTS</p>
           <ul classN>
@@ -137,7 +137,7 @@ export default function Home() {
           <li>PORTUGUESE</li>
           <li>ENGLISH</li>
           <li>FRENCH</li>
-          <li>FRENCH</li>
+          <li>SPANISH</li>
         </ul>
 
         <div>
