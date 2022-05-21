@@ -2,13 +2,16 @@ import React from "react"
 import "../styles/global.css"
 
 import { StaticImage } from "gatsby-plugin-image"
+import Layout from "../components/layout"
+import ContactForm from "../components/ContactForm"
 
 export default function Home() {
   return (
-    <div className="bg-gray-500 w-screen h-screen flex justify-center items-center">
-      <h1 className="text-5xl font-bold underline text-orange-600 pt-60">
-        Hello world!
-      </h1>
-    </div>
+    <Layout>
+      <h1 className="text-2xl pl-2 mt-4">CONTACT</h1>
+      <div className="p-2 my-4">
+        <ContactForm />
+      </div>
+    </Layout>
   )
 }
